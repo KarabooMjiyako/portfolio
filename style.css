@@ -226,6 +226,30 @@
     font-family: var(--font-family);
   }
 
+/* Media queries for navbar */
+@media only screen and (max-width: 767px) {
+  /* Adjust styles for small screens */
+  .navbar-brand {
+    font-size: 18px;
+  }
+
+  .navbar-toggler-icon {
+    background-color: #000; /* Change the color of the toggler icon */
+  }
+
+  .navbar-nav {
+    margin-top: 10px; /* Adjust the spacing between nav items */
+  }
+
+  .navbar-nav .nav-item {
+    text-align: center; /* Center align the nav items */
+  }
+
+  .navbar-nav .nav-link {
+    padding: 10px; /* Adjust the padding of the nav links */
+  }
+}
+
 /* Media queries for header section */
 @media only screen and (max-width: 767px) {
   /* Adjust styles for small screens */
