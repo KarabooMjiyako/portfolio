@@ -19,6 +19,7 @@
 .navbar{
     font-family: var(--font-family-headings);
     font-size: medium;
+    color: var(--primary-color);
   }
 
  .bg{
