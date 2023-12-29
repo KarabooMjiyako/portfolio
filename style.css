@@ -16,6 +16,11 @@
     background: radial-gradient(circle, #ff8080, #FFB3C1);
   }
 
+.navbar{
+    font-family: var(--font-family-headings);
+    font-size: medium;
+  }
+
  .bg{
     box-shadow: var(--box-shadow);
     background: #800F2F;
