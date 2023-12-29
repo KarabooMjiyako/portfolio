@@ -19,8 +19,10 @@
 .navbar{
     font-family: var(--font-family-headings);
     font-size: medium;
-    color: var(--primary-color);
   }
+.nav-link{
+    color: var(--primary-color);
+}
 
  .bg{
     box-shadow: var(--box-shadow);
