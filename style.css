@@ -16,6 +16,11 @@
     background: radial-gradient(circle, #ff8080, #FFB3C1);
   }
 
+ .bg{
+    box-shadow: var(--box-shadow);
+    background: #800F2F;
+  }
+
   header {
     font-family: 'Shrikhand', serif;
     color: var(--text-color);
