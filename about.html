@@ -26,9 +26,13 @@
       integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
       crossorigin="anonymous"
     />
+    <script
+      src="https://kit.fontawesome.com/ddc3ee268a.js"
+      crossorigin="anonymous"
+    ></script>
 </head>
 <body class="body">
-     <nav class="navbar navbar-expand-lg navbar-light bg">
+    <nav class="navbar navbar-expand-lg navbar-light bg">
         <div class="container">
           <a class="navbar-brand" href="index.html">Karabo Mjiyako</a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -37,49 +41,103 @@
           <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav ml-auto">
               <li class="nav-item">
-                <a class="nav-link text-light" href="index.html">Home</a>
+                <a class="nav-link text-dark" href="index.html">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link text-light" href="about.html">About</a>
+                <a class="nav-link text-dark" href="about.html">About</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link text-light" href="work.html">Projects</a>
+                <a class="nav-link text-dark" href="work.html">Projects</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link text-light" href="about.html#resume">Resume</a>
+                <a class="nav-link text-dark" href="about.html#resume">Resume</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link text-light" href="about.html#contact">Contact</a>
+                <a class="nav-link text-dark" href="about.html#contact">Contact</a>
               </li>
             </ul>
           </div>
         </div>
       </nav>
-    <img src="https://i.ibb.co/R0mRd8N/image.png" alt="stars" class="img-fluid d-flex justify-content-start h-25 image-3">
-    <section>
-        <h2 class="project-header">About Me</h2>
+    <div id="about">
+        <h2 class="project-header text-center">About Me</h2>
         <p class="project-paragraph">I am a passionate frontend developer with a strong foundation in web technologies. My goal is to create user-friendly and visually appealing websites that make a positive impact.</p>
-        <a href="work.html" class="project-link">See my Projects</a>
-      </section>
+        <a
+              href="work.html"
+              class=" project-link mt-3"
+              title="View Projects"
+            >
+             See my Projuects
+            </a>
+    </div>
 
-      <section id="resume">
-        <h2 class="project-header">Resume</h2>
-        <img src="https://i.ibb.co/DVCjCwN/colorful-pastel-minimalist-cute-note-resume-2.png" alt="Karabo Resume" class="img-fluid custom-image">
-      </section>
+      <div id="resume">
+        <h2 class="project-header text-center">Resume</h2>
+        <img src="https://i.ibb.co/z6mqxp2/Purple-Grey-Clean-UI-Copy-Editor-CV.png" alt="Karabo Resume" class="img-fluid image text-center">
+      </div>
 
-      <section id="contact">
-        <h2 class="project-header">📮Contact me</h2>
-        <a href="mailto:mjiyakontokozo@gmail.com" class="email-link"> mjiyakontokozo@gmail.com </a>
-      </section>
-      <img src="https://i.ibb.co/R0mRd8N/image.png" alt="stars" class="img-fluid d-flex justify-content-end h-25 image-2">
       <footer>
-        &copy; 2023 Portfolio. All rights reserved.
-        <span>This project was coded by <a href="https://github.com/KarabooMjiyako">Karabo Mjiyako</a> and is hosted of <a href="https://tourmaline-froyo-fe69c1.netlify.app/about#contact">Netlify</a></span>
+        <div class="contact-box justify-content-between mb-5 d-none d-md-flex">
+          <div>
+            <h3>Work Inquiry</h3>
+            <p class="text-muted">Let's work together</p>
+          </div>
+          <div>
+            <a
+              href="about.html#contact"
+              class=" project-link mt-3"
+              title="Contact Karabo"
+            >
+              Contact me
+            </a>
+          </div>
+        </div>
+
+        <section id="contact">
+          <h2 class="project-header text-center">📮Contact me</h2>
+        </section>
+
+        <div class="d-flex justify-content-center mb-5">
+          <a
+            href="mailto:mjiyakontokozo@gmail.com"
+            class="email-link"
+            title="Email Karabo"
+          >
+           mjiyakontokozo@gmail.com
+          </a>
+        </div>
+        <div class="social-links d-flex justify-content-center">
+          <a
+            href="https://github.com/KarabooMjiyako"
+            target="_blank"
+            title="GitHub Profile"
+          >
+            <i class="fab fa-github"></i>
+          </a>
+          <a
+            href="#"
+            target="_blank"
+            title="instragram Profile"
+          >
+            <i class="fab fa-instagram"></i>
+          </a>
+          <a
+            href="#"
+            target="_blank"
+            title="Twitter Profile"
+          >
+            <i class="fab fa-twitter"></i>
+          </a>
+        </div>
+        <p class="text-center mt-5">
+          ✌️ This website was coded by Karabo Mjiyako, and is
+          <a
+            href="#"
+            target="_blank"
+          >
+            open-sourced
+          </a>
+        </p>
       </footer>
-      <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
-      crossorigin="anonymous"
-    ></script>
 </body>
 </html>
