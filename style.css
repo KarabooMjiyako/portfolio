@@ -169,6 +169,11 @@ img {
 
 .project-description {
   text-align: center;
+  flex-basis: 25%;
+  background: var(--secondary-color);
+  margin: 10px;
+  border: 1px solid #ddd;
+  padding: 20px;
 }
 
 .project-link {
