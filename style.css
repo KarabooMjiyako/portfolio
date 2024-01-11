@@ -86,6 +86,23 @@ p {
   margin: 30px;
 }
 
+.btn{background: var(--branding-color);
+  box-shadow: var(--box-shadow);
+  color: white;
+  text-align: center;
+  border-radius: 5px;
+  text-decoration: none;
+  padding: 15px 20px;
+  font-family: var(--heading-font-family);
+  }
+
+btn:hover{  background: transparent;
+  color: var(--brand-color);
+  border: 1px solid var(--branding-color);
+         }
+  
+  
+
 /* Resume and About Sections */
 #resume, #about {
   background: var(--secondary-color);
