@@ -159,7 +159,8 @@ img {
   margin: 0 auto;
 }
 
-.col-sm-4 {
+.col-md-4 {
+  flex-basis: 25%;
   background: var(--secondary-color);
   margin: 10px;
   border: 1px solid #ddd;
